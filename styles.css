@@ -1,0 +1,1506 @@
+/* @import url(https://fonts.googleapis.com/css?family=Open+Sans); */
+body{
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+    font-family:  "Sofia", sans-serif;   
+}
+.navbar{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    padding-top : 40px;
+}
+.title{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    cursor: default;
+}
+.image-title{
+    width: 40px;
+    height: 40px;
+}
+.title-name{
+    padding: 0;
+}
+.header{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 50px;
+    margin-right: 0px; 
+}
+.header a{
+    padding-top: 16px;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+.dropbtn{
+    display: none;
+}
+.botton-login{
+    border: none;
+    background-color: aliceblue;
+    font-size: 17px;
+    cursor: pointer;
+}
+.botton-signin{
+    color: white;
+    background-color: rgb(109, 109, 255);
+    text-align: center;
+    border: 0;
+    border-radius: 10px;
+    width: 140px;
+    height: 50px;
+    cursor: pointer;
+}
+.logins{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 300px;
+    column-gap: 50px;    
+}
+/* second */
+.pragraph{
+    width: 500px;
+    height: 500px;
+    padding-bottom: 0;
+    padding-top: 70px;
+}
+
+#all-one{
+    display: flex;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    height: 670px;
+}
+.h-one{
+    width: 500px;
+    margin-left: 60px;
+    font-size: 55px;
+}
+
+.h-five{
+    width: 430px;
+    margin-left: 60px;
+    color: grey;
+}
+.comun{
+    display: flex;
+    margin-left: 60px;
+    color: white;
+    font-size: 17px;
+}
+.h1-five{
+    display: flex;
+    width: 170px;
+    font-size: 12px;
+    text-align: center;
+    background-color: rgb(15, 14, 14);
+    border-radius: 5px;
+    
+}
+.h2-five{
+    display: flex;
+    width: 170px;
+    font-size: 12px;
+    background-color: rgb(15, 14, 14);
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.img-pragraph{
+    width: 35px;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.img-like{
+    width: 35px;
+    height: 35px;
+    padding-top: 10px;
+    padding-left: 6px;
+}
+.img-pragraph{
+    display: grid;
+    grid-template-columns: auto auto ;
+    position: relative;
+    justify-content: center;
+}
+.big-images{
+    width: 700px;
+    height: 500px;
+}
+/* second SEARCH */
+.seconds{
+    display: grid;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+    width: 100%;
+    z-index: 2;
+}
+
+.search{
+    position: relative;
+    width: 400px;
+    height: 60px;
+    border: 2px solid rgb(160, 160, 160);
+    border-radius: 10px;
+    padding-left: 45px;
+    font-size: 17px;
+}
+
+.input-search{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 15px;
+    z-index: 1;
+}
+.location{
+    position: relative;
+    width: 335px;
+    height: 55px;
+    padding-left: 60px;
+    font-size: 17px;
+    border: 2px solid rgb(160, 160, 160);
+    border-radius: 10px;
+}
+
+.input-location{
+    position: absolute;
+    margin-top: 10px;
+    width: 40px;
+    z-index: 1;
+}
+#button{
+    background-color: rgb(30, 30, 240);
+    border: none;
+    border-radius: 10px;
+    height: 60px;
+    width: 65px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.input-button{
+    width: 30px;
+}
+.searchs{
+    position: relative; 
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    border: none;
+    width: 1030px;
+    border-radius: 12px ;
+    box-shadow: 1px 1px 2px 2px rgba(255, 255, 255, 0.253);
+}
+#searchs{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+#two-input{
+    display: flex;
+}
+.h2-h2{
+    margin-left: 65px;
+    margin-top: 40px;
+}
+/* //SOme idea */
+.some-idea{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    column-gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+#f-madicine{
+    background-color:  aliceblue;
+    width: 145px;
+    height: 35px;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 5px;
+    padding-left: 5px;  
+    font-size: 15px; 
+}
+.img1-midcine{
+    padding-left: 8px;
+    width: 15px;
+    padding-top: 3px;
+    cursor: pointer;
+}
+#p-madicine{
+    background-color: aliceblue;
+    width: 100px;
+    height: 35px;
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px; 
+}
+
+.img2-midcine{
+    padding-left: 8px;
+    width: 15px;
+    cursor: pointer;
+    padding-top: 3px;
+}
+#t-madicine{
+    background-color: aliceblue;
+    width: 110px;
+    height: 40px;
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 14px; 
+}
+.img3-midcine{
+    padding-left: 8px;
+    width: 15px;
+    cursor: pointer;
+    padding-top: 3px;
+}
+#teleh-madicine{
+    background-color: aliceblue;
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px; 
+}
+.img4-midcine{
+    padding-left: 8px;
+    width: 15px;
+    cursor: pointer;
+    padding-top: 3px;
+}
+#c-madicine{
+    background-color: aliceblue;
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px; 
+}
+.img5-midcine{
+    padding-left: 8px;
+    width: 15px;
+    cursor: pointer;
+    padding-top: 3px;
+}
+#o-madicine{
+    background-color: aliceblue;
+    width: 160px;
+    height: 40px;
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px; 
+}
+.img6-midcine{
+    padding-left: 8px;
+    width: 15px;
+    cursor: pointer;
+    padding-top: 3px;
+}
+.b-button{
+    background-color: rgba(12, 12, 247, 0.181);
+    color: blue;
+    width: 55px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+/* the paragraph */
+.populare-search{
+    display: grid;
+    background-color: #FAFBFE;
+    height: max-content;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.populare{
+    padding-top: 200px;
+    margin-left: 15px;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+.populare-search1{
+    display: flex;
+    width: 1250px;
+}
+.populare-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h-three{
+    display: block;
+    padding-right: 20px;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 13px;
+    width: 120px;
+    border-width: 3px;
+    height: 120px ;  
+    border-right: solid blue;  
+    border-bottom: 10px;
+}
+.h3-three:hover{
+    color: black;
+}
+.h3-three{
+    margin-top: 9px;
+    color: rgb(141, 141, 141);
+    cursor: pointer;
+}
+.Dermatology{
+    width: 140px;
+    height: 122px;
+    background-color: white;
+    text-align: center;
+    margin-left: 40px;
+    border-radius: 12px;
+    border: 1px solid white;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px 5px rgba(128, 128, 128, 0.042);
+}
+.Dermatology:hover{
+    background-color: rgba(21, 21, 233, 0.023);
+    border: 1px solid blue;
+}
+.hear{
+    display: grid;
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 50px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.internal-medicine{
+    width: 140px;
+    height: 122px;
+    background-color: white;
+    border: 1px solid white;
+    text-align: center;
+    margin-left: 40px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px 5px rgba(128, 128, 128, 0.042);
+}
+.internal-medicine:hover{
+    background-color: rgba(21, 21, 233, 0.023);
+    border: 1px solid blue;
+}
+.neurology{
+    width: 140px;
+    height: 122px;
+    background-color: white;
+    border: 1px solid white;
+    text-align: center;
+    margin-left: 40px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px 5px rgba(128, 128, 128, 0.042);
+}
+.neurology:hover{
+    background-color: rgba(21, 21, 233, 0.023);
+    border: 1px solid blue;
+}
+.general-medicine{
+    width: 140px;
+    height: 122px;
+    background-color: white;
+    border: 1px solid white;
+    text-align: center;
+    margin-left: 40px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px 5px rgba(128, 128, 128, 0.042);
+}
+.general-medicine:hover{
+    background-color: rgba(21, 21, 233, 0.023);
+    border: 1px solid blue;
+}
+.dintist{
+    width: 140px;
+    height: 122px;
+    background-color: white;
+    border: 1px solid white;
+    text-align: center;
+    margin-left: 40px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px 5px rgba(128, 128, 128, 0.042);
+}
+.dintist:hover{
+    background-color: rgba(21, 21, 233, 0.023);
+    border: 1px solid blue;
+}
+.otolaryngology{
+    width: 140px;
+    height: 122px;
+    background-color: white;
+    border: 1px solid white;
+    text-align: center;
+    margin-left: 40px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px 5px rgba(128, 128, 128, 0.042);
+}
+.otolaryngology:hover{
+    background-color: rgba(21, 21, 233, 0.023);
+    border: 1px solid blue;
+}
+/* footer */
+.last-header{
+    width: 450px;
+    margin-left: 60px;
+    font-size: 20px;
+}
+.last-header1{
+    width: 400px;
+    margin-left: 60px;
+    font-size: 16px;
+    color: #B0B8C6;
+}
+.last-input{
+    display: flex;
+    margin-left: 50px;
+    width: 300px;
+}
+.last-inputing{
+    border-radius: 100%;
+    background-color: #EEEEFD;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
+.last-iput-search{
+    margin-left: 9px;
+    margin-top: 8px;
+    position: absolute;
+    z-index: 1;
+}
+.slast-header2{
+    width: 360px;
+    border-left: solid #B0B8C6;
+    padding-left: 35px;
+    font-size: 16px;
+    color: #B0B8C6;
+    margin-left: 65px;
+}
+.search-neasest{
+    font-size: large;
+    margin-left: 20px;
+}
+
+.footer-docter{
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    margin-top: 20px;
+    padding-left: 26px;
+}
+.footer-location{
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    padding-left: 26px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.searching-doctor{
+    display: block;
+    background-color: #ffffff;
+    border-radius: 13px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 240px;
+    height: 290px;
+    box-shadow: 0px 2px 2px ;
+    padding: 10px;    
+}
+.form-searchingdoctor{
+    display: flex;
+    grid-template-columns: auto auto ;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding-top: 160px;
+    margin-left: 80px;
+}
+.footer-h-header{
+    text-align: left; 
+    margin-left: 20px;
+    font-size: 20px;
+}
+.footer-search{
+    height: 40px;
+    width: 199px;
+    border-radius: 12px;
+    background-color: blue;
+    text-align: center;
+    border: none;
+}
+.footers-location{
+    width: 25px; 
+    position: absolute; 
+    z-index: 1;
+    margin-top: 18px;
+    margin-left: 5px;
+}
+.footer{
+    display: block;
+    width: 520px;
+}
+.all-footers{
+    display: flex;
+    align-items: center;
+    padding-top: 120px;
+    width: 480px; 
+}
+.footer-img{
+    width: 290px;
+    height: 290px;
+    margin-top: 20px;
+}
+@media only screen and (max-width:480px) and (min-width:320px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .dropbtn{
+        display: block;
+        border: none;
+        border-radius: 7px;
+        width: 40px;
+        height: 30px;
+        cursor: pointer;
+    }
+    .dropbtn:hover, .dropbtn:focus{
+        border: none;
+    }
+    .dropdown{
+        display: flex;
+    }
+    .header{
+        display: none;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0);
+        backdrop-filter: blur(5px);
+        text-align: center;
+        align-items: center;
+        width: 150px;
+        overflow: none;
+        padding-top: 20px;
+        margin-right: 40px;
+        right: 0;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 6px 13px 13px 6px rgba(0, 0, 0, 0.154);
+        z-index: 1;
+    }
+    .header:hover a{
+        background-color: rgba(221, 221, 221, 0);
+
+    }
+    .header a{
+        display: grid;
+        grid-template-columns: auto;
+        background-color: #b0b8c600;
+        border-radius: 14px;
+        padding: 5px;
+    }
+    .show{
+        display: block;
+    }
+    /* from there are start style */
+    .logins{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .botton-login{
+        background-color: #b0b8c600;
+        border-radius: 14px;
+        padding: 5px;
+    }
+    .botton-signin{
+        background-color: #b0b8c600;
+        border-radius: 14px;
+        padding: 5px;
+        height: 35px;
+        width: 150px;
+        font-size: 17px;
+        color: black;
+    }
+    .navbar{
+        display: grid;
+        grid-template-columns: auto  auto;
+        column-gap: 260px;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        width: 455px;
+    }
+    .title{
+        position: relative;
+    }
+    .dropdown{
+        position: relative;
+    }
+    /* this is body */
+    .pragraph{
+        width: 420px;
+    }
+    #all-one{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        width: 450px;
+    }
+    .h-one{
+        margin: 0;
+        font-size: 40px;
+        width: 420px;
+    }
+    .h-five{
+        width: 420px;
+        margin: 0;
+    }
+    .comun{
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .big-images{
+        width: 440px;
+        height: 300px;
+        margin: 0;
+    }
+    /* the second part of the body */
+    .seconds{
+        align-items: center;
+        padding: 10px;
+        width: 450px;
+    }
+    .searchs{
+        width: 420px;
+    }
+    #searchs{
+        display: flex;
+        flex-direction: column;
+    }
+    .search{
+        width: 315px;
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+    .location{
+        width: 270px;
+        margin-bottom: 10px;
+        padding-left: 40px;
+        font-size: 12px;
+    }
+    #button{
+        margin-left: 245px;
+    }
+    #two-input{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .h2-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .h2-h2{
+        width: 420px;
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .some-idea{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .search-family{
+        margin: 5px;
+    }
+    .search-button{
+        grid-column: 2;
+        padding-left: 120px;
+    }
+    .populare-search{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 450px;
+        padding: 10px;
+    }
+    .populare{
+        margin: 0;
+        padding: 0;
+        margin-top: 420px;
+        font-size: 30px;
+        width: 350px;
+        z-index: 1;
+    }
+    .h-three{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        column-gap: 20px;
+        padding: 0;
+        width: 300px;
+        border: none;
+        margin-bottom: 20px;
+        border-bottom: 2px solid skyblue;
+    }
+    .populare-search1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 425px;
+        padding: 20px;
+    }
+    .populare-info{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .Dermatology, .internal-medicine, .neurology, .general-medicine, .dintist, .otolaryngology{
+        margin: 0;
+    }
+    .all-footers{
+        display: flex;
+        flex-direction: column;
+    }
+    .last-header{
+        border: none;
+        font-size: 15px;
+        width: 370px;
+        margin: 0;
+    }
+    .last-input{
+        margin: 0;
+        margin-left: -60px;
+    }
+    .last-inputing{
+        margin: 0;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: center;
+        padding: 10px;
+        width: 445px;
+    }
+    .searching-doctor{
+        width: 400px;
+        margin: 0;
+        padding: 0;
+    }
+    .footer-img{
+        display: none;
+    }
+    .form-searchingdoctor{
+        width: 450px;
+        padding: 10px;
+        margin: 0;
+    }
+    .footer-h-header{
+        width: 200px;
+    }
+    .footer-docter{
+        width: 320px;
+        height: 45px;
+    }
+    .footer-location{
+        width: 285px;
+    }
+    .navbar_margin{
+        margin-top: 50px;
+    }
+}
+@media only screen and (min-width:481px) and (max-width:768px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .dropbtn{
+        display: block;
+        border: none;
+        border-radius: 7px;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 55px;
+        font-size: 40px;
+        cursor: pointer;
+    }
+    .dropbtn:hover, .dropbtn:focus{
+        border: none;
+    }
+    .dropdown{
+        display: block;
+    }
+    .header{
+        display: none;
+        position: absolute;
+        background-color: rgba(130, 28, 255, 0);
+        text-align: center;
+        align-items: center;
+        width: 230px;
+        overflow: none;
+        padding-top: 20px;
+        margin-right: 40px;
+        font-size: 25px;
+        backdrop-filter: blur(5px);
+        border: 1px solid rgba(128, 128, 128, 0.068);
+        right: 0px;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 13px 13px 13px 13px rgba(128, 128, 128, 0.213);
+        z-index: 1;
+    }
+    .header:hover a{
+        background-color: rgba(221, 221, 221, 0);
+
+    }
+    .header a{
+        display: grid;
+        grid-template-columns: auto;
+        background-color: #0e61f000;
+        border-radius: 14px;
+        padding: 5px;
+    }
+    .show{
+        display: block;
+    }
+    /* from there are start style */
+    .logins{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        padding-top: 3px;
+    }
+    .botton-login{
+        background-color: #b0b8c600;
+        border-radius: 14px;
+        padding: 5px;
+    }
+    .botton-signin{
+        background-color: #b0b8c600;
+        padding: 5px;
+        text-align: center;
+        font-size: 17px;
+        color: black;
+        width: auto;
+    }
+    .navbar{
+        display: grid;
+        grid-template-columns: auto  auto;
+        justify-content: center;
+        align-items: center;
+        column-gap: 150px;
+        width: min-content;
+
+        padding: 10px;
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+    .title{
+        position: relative;
+    }
+    .dropdown{
+        position: relative;
+        grid-column: end;
+    }
+    /* this is body */
+    .pragraph{
+        width: 340px;
+        padding: 0;
+        height: 400px;
+        padding-left: 50px;
+    }
+    #all-one{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 560px;
+    }
+    .all-ones{
+        height: 480px;
+        width: min-content;
+        width: 750px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .h-one{
+        margin: 0;
+        font-size: 30px;
+        width: 400px;        
+    }
+    .h-five{
+        width: 400px;
+        margin: 0;
+    }
+    .comun{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        padding: 10px;
+    }
+    .h1-five{
+        margin: 0;
+    }
+    .h2-five{
+        margin: 0;
+        margin-top: 20px;
+    }
+    .big-images{
+        width: 340px;
+        height: 230px;
+        z-index: 1;
+    }
+    /* the second part of the body */
+    .seconds{
+        align-items: center;
+        padding: 10px;
+        width: 735px;
+    }
+    .searchs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 680px;
+        height: 380px;
+    }
+    #searchs{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        margin-top: 10px;
+        height: 66px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .search{
+        width: 290px;
+        margin: 0;
+        font-size: 14px;
+    }
+    .location{
+        width: 240px;
+        /* margin-top: 40px; */
+        font-size: 12px;
+    }
+    #button{
+        margin-top: 15px;
+        margin-left: 245px;
+    }
+    #two-input{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 76px;
+    }
+    #h2-div{
+        width: 755px;
+        justify-content: center;
+        align-items: center;
+    }
+    .h2-div{
+        margin: 0;
+        padding-left: 75px;
+        justify-content: center;
+    }
+    .h2-h2{
+        width: 420px;
+        font-size: 30px;
+        margin-left: 0;
+    }
+    .some-idea{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: left;
+        gap: 10px;
+        margin-left: 70px;
+        width: 500px;
+    }
+    .search-family{
+        margin: 0;
+        padding: 0;
+    }
+    #f-madicine, #p-madicine, #t-madicine, #teleh-madicine, #c-madicine, #o-madicine{
+        width: 135px;
+    }
+    .search-button{
+     grid-column: 4;
+         padding-left: 90px;  
+
+    }
+    .img1-midcine, .img5-midcine{
+        padding-left: 0;
+    }
+   .img2-midcine{
+    padding: 0;
+        margin-left: 40px;
+    } 
+    .img3-midcine{
+        padding: 0;
+        margin-left: 30px;
+    }
+    .img4-midcine{
+        padding: 0;
+        margin-left: 35px;
+    }
+    .img5-midcine{
+        padding: 0;
+        margin-left: 40px;
+    }
+    .img6-midcine{
+        padding: 0;
+        margin-left: 0;
+    }
+    .populare-search{
+        justify-content: center;
+        align-items: center;
+        width: min-content;
+        width: 710px;
+        padding: 20px;
+    }
+    .populare{
+        margin: 0;
+        padding: 0;
+        font-size: 40px;
+        z-index: 1;
+    }
+    #populare{
+        width: 680px;
+        height: 70px;
+        margin-top: 320px;
+    }
+    .h-three{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+        width: 150px;
+        margin-bottom: 20px;
+    }
+    .populare-search1{
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 35px;
+        justify-content: center;
+        align-items: center;
+        width: 635px;
+        padding: 20px;
+    }
+    .populare-info{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .Dermatology, .internal-medicine, .neurology, .general-medicine, .dintist, .otolaryngology{
+        margin: 0;
+    }
+    .all-footers{
+        display: flex;
+        flex-direction: column;
+    }
+    .last-header{
+        border: none;
+        font-size: 15px;
+        width: 370px;
+        margin: 0;
+    }
+    .last-input{
+        margin: 0;
+        margin-left: -60px;
+    }
+    .last-inputing{
+        margin: 0;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: center;
+        padding: 10px;
+        width: 445px;
+    }
+    .searching-doctor{
+        width: 400px;
+        margin: 0;
+        padding: 0;
+    }
+    .form-searchingdoctor{
+        width: 350px;
+        padding: 10px;
+        margin: 0;
+        margin-left: 170px;
+    }
+    .footer-h-header{
+        width: 150px;
+    }
+    .footer-docter{
+        width: 220px;
+        height: 45px;
+    }
+    .footer-location{
+        width: 185px;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width:1024px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .logins{
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+        padding-top: 3px;
+        padding-left: 60px;
+        width: 250px;
+    }
+    .botton-login{
+        border-radius: 14px;
+        padding: 5px;
+    }
+    .botton-signin{
+        padding: 5px;
+        text-align: center;
+        font-size: 17px;
+        color: black;
+        width: 140px;
+    }
+    .navbar{
+        display: grid;
+        grid-template-columns: auto  auto;
+        justify-content: center;
+        align-items: center;
+        column-gap: 50px;
+        width: 999px;
+        padding: 10px;
+    }
+    .title{
+        position: relative;
+    }
+    .dropdown{
+        position: relative;
+    }
+    .header a{
+        font-size: 14px;
+    }
+    /* this is body */
+    .pragraph{
+        width: 350px;
+        padding-left: 50px;
+        height: 360px;
+    }
+    #all-one{
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 40px;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        padding-right: 40px;
+        width: 955px;
+        height: 530px;
+    }
+    .all-ones{
+        height: 505px;
+        width: min-content;
+        width: 750px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .h-one{
+        margin: 0;
+        font-size: 30px;
+        width: 550px;        
+    }
+    .h-five{
+        width: 450px;
+        margin: 0;
+        padding-top: 10px;
+        font-size: 14px;
+    }
+    .comun{
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+        width: 400px;
+        padding-top: 30px;
+    }
+
+    .big-images{
+        width: 470px;
+        height: 330px;
+        margin-top: -20px;
+        z-index: 1;
+    }
+    /* the second part of the body */
+    .seconds{
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        width: 999px;
+    }
+    .searchs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 880px;
+        height: 380px;
+    }
+    #searchs{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        margin-top: 10px;
+        height: 66px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .search{
+        width: 390px;
+        margin: 0;
+    }
+    .location{
+        width: 340px;       
+    }
+    #button{
+        margin-top: 15px;
+        margin-left: 340px;
+    }
+    #two-input{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 76px;
+    }
+    #h2-div{
+        width: 815px;
+        justify-content: center;
+        align-items: center;
+    }
+    .h2-div{
+        margin: 0;
+        width: max-content;
+        justify-content: center;
+    }
+    .h2-h2{
+        width: 420px;
+        font-size: 30px;
+        margin-left: 0;
+    }
+    .some-idea{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        justify-content: left;
+        gap: 10px;
+        width: 800px;
+    }
+    .search-family{
+        margin: 0;
+        padding: 0;
+    }
+    #f-madicine, #p-madicine, #t-madicine, #teleh-madicine, #c-madicine, #o-madicine{
+        width: 135px;
+    }
+    .search-button{
+        grid-column: 5;
+        padding-left: 90px;  
+    }
+    .img1-midcine, .img5-midcine{
+        padding-left: 0;
+    }
+   .img2-midcine{
+    padding: 0;
+        margin-left: 40px;
+    } 
+    .img3-midcine{
+        padding: 0;
+        margin-left: 30px;
+    }
+    .img4-midcine{
+        padding: 0;
+        margin-left: 35px;
+    }
+    .img5-midcine{
+        padding: 0;
+        margin-left: 40px;
+    }
+    .img6-midcine{
+        padding: 0;
+        margin-left: 0;
+    }
+    .populare-search{
+        justify-content: center;
+        align-items: center;
+        width: min-content;
+        width: 980px;
+        padding: 20px;
+    }
+    .populare{
+        margin: 0;
+        padding: 0;
+        font-size: 40px;
+        z-index: 1;
+    }
+    #populare{
+        width: 880px;
+        height: 70px;
+        margin-top: 320px;
+    }
+    .h-three{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+        width: 150px;
+        margin-bottom: 20px;
+    }
+    .populare-search1{
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 50px;
+        justify-content: center;
+        align-items: center;
+        width: 835px;
+        padding: 20px;
+    }
+    .populare-info{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 35px;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .Dermatology, .internal-medicine, .neurology, .general-medicine, .dintist, .otolaryngology{
+        margin: 0;
+    }
+    .all-footers{
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    }
+    .last-header{
+        border: none;
+        font-size: 15px;
+        width: 370px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        padding: 10px;
+        width: 445px;
+    }
+    .searching-doctor{
+        width: 400px;
+        height: 300px;
+        margin: 0;
+        padding: 0;
+        justify-content: left;
+    }
+    .form-searchingdoctor{
+        display: flex;
+        flex-direction:row;
+        width: 450px;
+        padding: 10px;
+        margin: 0;
+        margin-top: 50px;
+    }
+    .footer-h-header{
+        width: 150px;
+    }
+    .footer-docter{
+        width: 220px;
+        height: 45px;
+    }
+    .footer-location{
+        width: 185px;
+    }
+    .footer-img{
+        width: 200px;
+    }
+}
+.navbar_margin{
+    margin-top: 50px;
+}
+
